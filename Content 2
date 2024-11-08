@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5); /* Semi-transparent black */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.5),
+    rgba(50, 50, 50, 0.5)
+  ); /* Gradient effect */
+  backdrop-filter: blur(40px); /* Blur effect for a frosted glass look */
+  padding: 20px 40px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.navigation .logo img {
+  height: 30px;
+  width: auto;
+}
+.navigation .navcont ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.navigation .navcont a:hover {
+  color: #a75a5a;
+}
+
+.navigation .navcont ul {
+  font-family: "Poppins", sans-serif;
+}
+.navigation .navcont a {
+  text-decoration: none;
+  color: white;
+}
+.background .backgroundimg img {
+  height: 900px;
+  width: 100%;
+}
+.backgroundtext {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  color: white;
+  text-align: left;
+}
+
+.a {
+  font-family: "Sofia", cursive;
+  font-size: 6rem;
+}
+
+.b {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.temple {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.button {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 20px; /* Space between text and button */
+}
+
+.button:hover {
+  background-color: #151212;
+}
